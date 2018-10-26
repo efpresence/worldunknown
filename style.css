@@ -17,6 +17,10 @@ html {
   overflow-y: scroll;
 }
 
+a {
+  color: RED;
+}
+
 body { }
 
 #canvas {
@@ -25,6 +29,7 @@ body { }
 }
 
 #header {
+  float: right;
   margin: 0 0 10px 0;
 }
   /** the heading and tagline are h1 on homepage and h4 on internal */
