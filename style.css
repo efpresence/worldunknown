@@ -195,3 +195,7 @@ div.aligncenter {
 .alignright {
    float: right;
 }
+
+.nocomments {
+    display: none;
+}
