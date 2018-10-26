@@ -196,6 +196,6 @@ div.aligncenter {
    float: right;
 }
 
-.nocomments {
+#nocomments {
     display: none;
 }
