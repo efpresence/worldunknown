@@ -14,7 +14,7 @@
       <small><?php the_date(); ?> by <?php the_author(); ?></small>
 
       <div class="post"><?php the_content(__('(more...)')); ?></div>
-      <p class="postMeta">Category: <?php the_category(', ') . " " . the_tags(__('Tags: '), ', ', ' | ') . comments_popup_link(__('Comments (0)'), __('Comments (1)'), __('Comments (%)')) . edit_post_link(__('Edit'), ' | '); ?></p>
+      <!-- <p class="postMeta">Category: <?php the_category(', ') . " " . the_tags(__('Tags: '), ', ', ' | ') . comments_popup_link(__('Comments (0)'), __('Comments (1)'), __('Comments (%)')) . edit_post_link(__('Edit'), ' | '); ?></p> -->
 
       <hr class="noCss" />
     </li>
@@ -35,12 +35,12 @@
   ?>
 
   <?php if (will_paginate()): ?>
-  
+
     <ul id="pagination">
       <li class="previous"><?php posts_nav_link('','','&laquo; Previous Entries') ?></li>
       <li class="future"><?php posts_nav_link('','Next Entries &raquo;','') ?></li>
     </ul>
-    
+
   <?php endif; ?>
 
 

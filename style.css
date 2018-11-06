@@ -6,7 +6,7 @@
   Author URI: http://www.siftware.co.uk
   Tags: simple, clean, fixed width, widget-ready, widgets, right sidebar, two columns, valid XHTML, valid CSS, blank-slate
   Licence: LGPL
-  
+
   Description: A theme created with developers in mind which should enable rapid WP reskinning. The CSS is minimal but consistent cross-browser, there are a couple of SEO tweaks and the page navigation works sensibly but can modified easily.
 
   The CSS that follows is the bare minimum of styling for a two column, fixed width and centred layout that should be
@@ -161,9 +161,9 @@ body { }
     padding-left: 5px;
   }
 
-#comment {
+/* #comment {
   width: 500px;
-}
+} */
 
 #footer {
   clear: both;
@@ -178,7 +178,7 @@ body { }
 }
 
 /**
-  theme requirements as per 
+  theme requirements as per
   http://codex.wordpress.org/CSS
 */
 .aligncenter,
